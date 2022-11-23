@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.nv-bg{
+    background-color: #4B5320;
+}
+
+.nv{
+    font-family: 'Black Ops One', cursive;
+}
+
+body  {
+    font-family: 'Black Ops One', cursive;
+    color: orangered;
+}
+
+body {
+    background-color:#4B5320;
+}
+
+body > article > div > div > h1, h2, h3, h4, h5{
+    /* font-weight: bold; */
+    font-family: 'Black Ops One', cursive;
+    color: orangered;
+}
+
+body > article > section > div > h1, h4 {
+    color:gold;
+}
+
+body>footer>section>div>small>p {
+    color:yellow;
+}

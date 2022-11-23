@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body > div > nav >  div > ul > li > a {
+    color: orangered;
+}
+
+body {
+    background-color:#4B5320;
+}
+
+body {
+    font-family: 'Black Ops One', cursive;
+    color: orangered;
+}
+
+body > article > section > div > h1, h3 {
+    color:gold;
+}
+
+body > footer > section > div > small > p {
+    color:yellow
+}
+
+.qoute {
+    color:rgb(255, 255, 255);
+}
+
+.qoute > em {
+    color: rgb(255, 0, 0);
+}

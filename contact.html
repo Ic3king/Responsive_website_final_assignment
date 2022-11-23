@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
+    q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-
+    ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-
+    ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./CSS/contact.css" class="css">
+
+<!-- Page Title -->
+    <title>Operation Citadel</title>
+</head>
+
+<body>
+    <div>
+        <!-- Navbar title -->
+        <title>Operation Citadel</title>
+        <nav class="navbar navbar-expand-lg nv-bg">
+            <div class="container">
+            <!-- Start  of Navbar -->
+            <a class="navbar-brand nv" href="#">Operation Citadel </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nv-items">
+                    <li class="nav-item">
+                        <!-- Home Link -->
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <!-- About Link -->
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <!-- Contact Link -->
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+            <!-- End of Navbar -->
+        </nav>
+    </div>
+
+<!-- Start if Contact -->
+    <section class="container">
+        <form>
+            <div class="form-row">
+                <div class="form-group col">
+                    <!-- Email -->
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <small class="mute-text">Your email will not be shared!</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="3" required minlength="2"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send!</button>
+        </form>
+    </section>
+<!-- End of Contact -->
+
+    <br>
+<!-- Some information on the Battle -->
+    <article class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <h1>The Soviet Victory</h1>
+                <p class="lead qoute">
+                    "The Red Army and Navy and the whole Soviet people must fight for every inch of Soviet soil, fight to the last drop of blood for our towns and villages...onward, to victory!"
+                    <br><em>Joseph Stalin</em>
+                </p>
+                <img src="./images/soviet_assault_kursk.png" alt="soviet_assault_kursk" height="1000" class="img-fluid">
+                <p>
+                    The Battle of kursk resulted in the Red Armys victory. However the battle costed at least 500,000 lives, and 1, 614 tanks destroyed in the German Offensive
+                    However historians debate on the accuracy of the statistic given by the Soviet Union at the time. 
+                </p>
+            </div>
+
+<!-- Second box of information -->
+            <div class="col-md-4">
+                <h3>The remembarance</h3>
+                <p class="lead qoute">"It is not heroes that make history, but history that makes heroes."<br> <em>Joseph Stalin</em></p>
+                <img src="./images/Kursk_monument.png" alt="Kursk_monument" height="1000" class="img-fluid">
+                <p>
+                    The Soviet era remembarance monument to remember the tank battle in the Battle of Kursk. This monument is located in
+                    Prokhorovka (about 100km South).
+                </p>
+            </div>
+        </section>
+    </article>
+    
+    <br>
+
+<!-- Start Footer -->
+    <footer class="container">
+        <section class="row">
+            <div>
+                <h4 class="info">The purpose of this website</h4>
+                <p class="info">Contains information on Operation Citadel and the events that lead to it. Below is a link for further information</p>
+                <a href="https://en.wikipedia.org/wiki/Operation_Citadel" target="_blank">Click for more</a>
+                <small>
+                    <p>
+                        &copy; MY PERSONAL WEBSITE
+                    </p>
+                </small>
+            </div>
+        </section>
+    </footer>
+<!-- End of Footer -->
+</body>
+
+</html>
